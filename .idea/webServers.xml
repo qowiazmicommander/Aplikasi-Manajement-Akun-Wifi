@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="165f045e-5c3f-4890-bb19-efd4e8a16fb7" name="violet.amikom.ac.id" url="http://violet.amikom.ac.id">
+        <fileTransfer host="violet.amikom.ac.id" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="1daf523d-0f19-447c-b66a-099413c2a816" name="violetblog.amikom.ac.id" url="">
+        <fileTransfer host="202.91.9.42" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveCommand="LIST" shareSSLContext="true" showHiddenFiles="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
