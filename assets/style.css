@@ -220,12 +220,28 @@ a.btn-lilac:hover {
     transition: all 0.3s;
 }
 
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border-left: 5px solid rgb(244 63 94);
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    border-left: 5px solid #26a343;
+}
+
 .btn-orange {
     background-color: #ffa710;
+    color: #fafafa;
 }
 
 .btn-indigo {
     background-color: #6366F1;
+    color: #fafafa;
 }
 
 .btn-outline-indigo, .outline-indigo {
