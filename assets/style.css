@@ -258,6 +258,12 @@ a.btn-lilac:hover {
     background-color: rgb(244 63 94);
 }
 
+.dropdown.group>a[aria-expanded="true"] {
+    color: #fff;
+    background: #6f71f3;
+    border-radius: 0 1rem 1rem 0;
+}
+
 .circle {
     position: relative;
     width: 30px;
