@@ -135,16 +135,39 @@
         </nav>
         <!-- Section: Block Content -->
         <section>
-            <div class="container my-5">              
+            <div class="container my-5">
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                        <div class="dflex justify-content-end">
+                            <div class="text-right">
+                                <button class="btn btn-rose text-white btn-md px-3 my-0 mr-0 shadow"><i class="fas fa-trash-alt"></i>&nbsp;Delete</button>
+                                <button class="btn btn-indigo text-white btn-md px-3 my-0 mr-0 shadow"><a href="add_user.html"><i class="fas fa-plus"></i>&nbsp;Add user</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>           
               <div class="row">
                     <div class="col-md-12">
                         <div class="card card-list">
-                            <div class="card-header py-3">
+                            <div class="card-header py-3">  
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <p class="font-weight-bold d-flex justify-content-start my-1 mb-0"><i class="fas fa-clipboard-list my-1 mx-2"></i> List Akun User Wifi Amikom.</p>
+                                    <div class="col-md-5">
+                                        <p class="font-weight-bold d-flex justify-content-start my-1 mb-0"><i class="fas fa-clipboard-list my-1 mx-2"></i> List User Wifi Amikom.</p>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-2">
+                                        <div class="dropdown group" alt="Group">
+                                            <a class="btn btn-indigo dropdown" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">
+                                              <i class="fas fa-users text-white"></i>
+                                              <i class="fas fa-angle-down text-white ml-2"></i>
+                                            </a>                                          
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                              <a class="dropdown-item" href="#">Grup 1</a>
+                                              <a class="dropdown-item" href="#">Grup 2</a>
+                                              <a class="dropdown-item" href="#">Grup 3</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
                                         <ul class="list-unstyled d-flex justify-content-end mb-0">
                                             <li>
                                                 <form class="form-inline my-2 my-lg-0">
@@ -164,6 +187,7 @@
                                         <th scope="col">Nama</th>
                                         <th scope="col">NIK</th>
                                         <th scope="col">Email</th>
+                                        <th scope="col">Action</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -172,18 +196,27 @@
                                         <td>Mark</td>
                                         <td><i>190203xxx</i></td>
                                         <td>@amikom.ac.id</td>
+                                        <td>
+                                            <a href="edit_user.html" class="text-warning" alt="Edit"><i class="far fa-edit"></i><i>&nbsp;Edit</i></a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
                                         <td>Jacob</td>
                                         <td><i>190203xxx</i></td>
                                         <td>@amikom.ac.id</td>
+                                        <td>
+                                            <a href="edit_user.html" class="text-warning" alt="Edit"><i class="far fa-edit"></i><i>&nbsp;Edit</i></a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">3</th>
                                         <td>Larry</td>
                                         <td><i>190203xxx</i></td>
                                         <td>@amikom.ac.id</td>
+                                        <td>
+                                            <a href="edit_user.html" class="text-warning" alt="Edit"><i class="far fa-edit"></i><i>&nbsp;Edit</i></a>
+                                        </td>
                                     </tr>
                                     </tbody>
                                 </table>
